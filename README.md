@@ -186,7 +186,6 @@ Intent automatically reroutes traffic → demonstrating recovery.
 - **QoS :** Meters and DSCP priorities maintain smooth lecture streams and exam sessions.  
 - **Efficiency :** Centralized ONOS management simplifies policy updates and monitoring.
 
-> ✅ This integrated design meets all Canvas network requirements and achieves an HD-level implementation for Assignment II.
 
 ---
 
