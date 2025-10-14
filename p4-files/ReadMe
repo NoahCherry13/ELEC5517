@@ -1,0 +1,21 @@
+This directory contains 3 types of files:
+- p4 file
+- p4runtime files
+- topology json
+
+The p4 file is what defines the dataplane flow for the switches. It contains all matching tables, the logic for packet ingress, egress, emission, and the state machine.
+
+The runtime json files define the switch specific logic and parameters
+
+The topology file defines the links, switches, and the mapping of p4 runtime files to the switches.
+
+## How to Run It
+1) Open the p4 tutorial virtual machine
+2) Navigate to /home/p4/tutorials/exercises/basic
+3) Replace the existing basic.p4 with the basic.p4 in this directory
+4) Navigate to pod-topo directory
+5) Copy over all updated runtime files
+6) Replace topology.json with the corresponding file in this directory
+7) Navigate back to /home/p4/tutorials/exercises/basic
+8) Run "make build && make run"
+9) Always run "make stop" after exiting mininet to ensure correct shutdown
